@@ -31,4 +31,4 @@ python housing_birthrate_analysis.py
 ## 결과물
 - `most_influential_variables.png`: 전체 지역의 최영향 변수 분포
 - `region_specific_influence.png`: 지역별 최영향 변수 비교
-- `region_analysis_results.csv`: 상세 분석 결과 
+- `region_analysis_results.csv`: 상세 분석 결과
