@@ -1,0 +1,92 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- 타이틀 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">3×3 지역 유형화 매트릭스 (출산율 × 주거 부담 유형)</text>
+  
+  <!-- 설명 텍스트 -->
+  <text x="400" y="80" font-family="Arial" font-size="16" text-anchor="middle" fill="#555555">각 지역은 출산율 수준(행)과 주거 부담 요인(열)에 따라 유형화됩니다.</text>
+  
+  <!-- 테이블 배경 -->
+  <rect x="100" y="120" width="600" height="370" fill="#f8f9fa" stroke="#dddddd" stroke-width="2"/>
+  
+  <!-- 테이블 헤더 열 구분선 -->
+  <line x1="100" y1="170" x2="700" y2="170" stroke="#aaaaaa" stroke-width="2"/>
+  
+  <!-- 테이블 열 구분선 -->
+  <line x1="100" y1="220" x2="700" y2="220" stroke="#dddddd" stroke-width="1"/>
+  <line x1="100" y1="270" x2="700" y2="270" stroke="#dddddd" stroke-width="1"/>
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#dddddd" stroke-width="1"/>
+  <line x1="100" y1="370" x2="700" y2="370" stroke="#dddddd" stroke-width="1"/>
+  <line x1="100" y1="420" x2="700" y2="420" stroke="#dddddd" stroke-width="1"/>
+  <line x1="100" y1="470" x2="700" y2="470" stroke="#dddddd" stroke-width="1"/>
+  
+  <!-- 테이블 행 구분선 -->
+  <line x1="250" y1="120" x2="250" y2="490" stroke="#dddddd" stroke-width="1"/>
+  <line x1="400" y1="120" x2="400" y2="490" stroke="#dddddd" stroke-width="1"/>
+  <line x1="550" y1="120" x2="550" y2="490" stroke="#dddddd" stroke-width="1"/>
+  
+  <!-- 헤더 행 -->
+  <text x="175" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">출산율 \ 주거 부담</text>
+  <text x="325" y="145" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">매입부담형</text>
+  <text x="325" y="165" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">(PIR↑)</text>
+  <text x="475" y="145" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">임대부담형</text>
+  <text x="475" y="165" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">(전세가율↑)</text>
+  <text x="625" y="145" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">공급부족형</text>
+  <text x="625" y="165" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">(공공임대↓)</text>
+  
+  <!-- 행 라벨 -->
+  <text x="175" y="195" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#228B22">출산율 높음</text>
+  <text x="175" y="295" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#DAA520">출산율 보통</text>
+  <text x="175" y="395" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#B22222">출산율 낮음</text>
+  
+  <!-- A1 셀 -->
+  <rect x="250" y="170" width="150" height="100" fill="#EAFAEA" stroke="#dddddd" stroke-width="1"/>
+  <text x="325" y="205" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">A1</text>
+  <text x="325" y="235" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">안정적 주거환경</text>
+  
+  <!-- A2 셀 -->
+  <rect x="400" y="170" width="150" height="100" fill="#EAFAEA" stroke="#dddddd" stroke-width="1"/>
+  <text x="475" y="205" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">A2</text>
+  <text x="475" y="235" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">임대 안정성 중심</text>
+  
+  <!-- A3 셀 -->
+  <rect x="550" y="170" width="150" height="100" fill="#EAFAEA" stroke="#dddddd" stroke-width="1"/>
+  <text x="625" y="205" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">A3</text>
+  <text x="625" y="235" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">공공주택 확충지역</text>
+  
+  <!-- B1 셀 -->
+  <rect x="250" y="270" width="150" height="100" fill="#FFF8E1" stroke="#dddddd" stroke-width="1"/>
+  <text x="325" y="305" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">B1</text>
+  <text x="325" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">구매력 지원 필요</text>
+  
+  <!-- B2 셀 -->
+  <rect x="400" y="270" width="150" height="100" fill="#FFF8E1" stroke="#dddddd" stroke-width="1"/>
+  <text x="475" y="305" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">B2</text>
+  <text x="475" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">임대 부담 완화 필요</text>
+  
+  <!-- B3 셀 -->
+  <rect x="550" y="270" width="150" height="100" fill="#FFF8E1" stroke="#dddddd" stroke-width="1"/>
+  <text x="625" y="305" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">B3</text>
+  <text x="625" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">주택 공급 확대 필요</text>
+  
+  <!-- C1 셀 -->
+  <rect x="250" y="370" width="150" height="100" fill="#FFEBEE" stroke="#dddddd" stroke-width="1"/>
+  <text x="325" y="405" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">C1</text>
+  <text x="325" y="435" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">고가주택·저출산지역</text>
+  
+  <!-- C2 셀 -->
+  <rect x="400" y="370" width="150" height="100" fill="#FFEBEE" stroke="#dddddd" stroke-width="1"/>
+  <text x="475" y="405" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">C2</text>
+  <text x="475" y="435" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">임대비용 고부담지역</text>
+  
+  <!-- C3 셀 -->
+  <rect x="550" y="370" width="150" height="100" fill="#FFEBEE" stroke="#dddddd" stroke-width="1"/>
+  <text x="625" y="405" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">C3</text>
+  <text x="625" y="435" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">주택 공급 부족 지역</text>
+  
+  <!-- 추가 설명 -->
+  <text x="400" y="520" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">지역별 맞춤형 정책 설계를 위한 기본 프레임워크로,</text>
+  <text x="400" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">각 유형별 특성에 맞는 차별화된 접근이 필요합니다.</text>
+</svg>
